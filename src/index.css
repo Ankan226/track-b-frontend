@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input,
+textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  background-color: #4a4a8a;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #37376b;
+}
+
+.post-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.post-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.post-info {
+  flex: 1;
+}
+
+.delete-btn {
+  background-color: #b23b3b;
+}
+
+.delete-btn:hover {
+  background-color: #8f2e2e;
+}
+
+.status-message {
+  text-align: center;
+  color: #555;
+  margin: 10px 0;
+}
+
+.error-message {
+  text-align: center;
+  color: #b23b3b;
+  margin: 10px 0;
+}
